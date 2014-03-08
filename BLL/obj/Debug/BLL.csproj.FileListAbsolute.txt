@@ -1,0 +1,3 @@
+H:\program codes\报障系统\报障系统\BLL\obj\Debug\ResolveAssemblyReference.cache
+H:\program codes\报障系统\报障系统\BLL\obj\Debug\BLL.dll
+H:\program codes\报障系统\报障系统\BLL\obj\Debug\BLL.pdb

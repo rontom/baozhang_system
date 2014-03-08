@@ -1,0 +1,5 @@
+H:\program codes\报障系统\报障系统\Model\bin\Debug\Model.dll
+H:\program codes\报障系统\报障系统\Model\bin\Debug\Model.pdb
+H:\program codes\报障系统\报障系统\Model\obj\Debug\ResolveAssemblyReference.cache
+H:\program codes\报障系统\报障系统\Model\obj\Debug\Model.dll
+H:\program codes\报障系统\报障系统\Model\obj\Debug\Model.pdb

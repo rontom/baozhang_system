@@ -1,0 +1,5 @@
+G:\reportfault\报障系统\Model\bin\Debug\Model.dll
+G:\reportfault\报障系统\Model\bin\Debug\Model.pdb
+G:\reportfault\报障系统\Model\obj\Debug\ResolveAssemblyReference.cache
+G:\reportfault\报障系统\Model\obj\Debug\Model.dll
+G:\reportfault\报障系统\Model\obj\Debug\Model.pdb

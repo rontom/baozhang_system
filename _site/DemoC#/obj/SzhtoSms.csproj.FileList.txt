@@ -1,0 +1,11 @@
+bin\Debug\惠通C#示例程序代码.exe
+bin\Debug\惠通C#示例程序代码.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Sample.Form1.resources
+obj\Debug\SzhtSms.Properties.Resources.resources
+obj\Debug\SzhtoSms.csproj.GenerateResource.Cache
+obj\Debug\惠通C#示例程序代码.exe
+obj\Debug\惠通C#示例程序代码.pdb
+obj\Debug\Interop.Szhto.dll
+obj\Debug\SzhtoSms.csproj.ResolveComReference.cache
+bin\Debug\Interop.Szhto.dll

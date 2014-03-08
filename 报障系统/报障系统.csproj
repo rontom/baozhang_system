@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E478BA93-6FDD-474E-B3F3-35554437D493}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>报障系统</RootNamespace>
+    <AssemblyName>报障系统</AssemblyName>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <ManifestCertificateThumbprint>3A204DF743496573C89BCBF7295EBC9C84F473F3</ManifestCertificateThumbprint>
+    <ManifestKeyFile>报障系统_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>appli.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>F:\reportfin\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="agsXMPP, Version=0.9.2.0, Culture=neutral, PublicKeyToken=ff839b81f1debe86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\agsXMPP.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoDockManage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator\桌面\最小化运行\bin\AutoDockManage.dll</HintPath>
+    </Reference>
+    <Reference Include="IrisMenu, Version=2006.10.30.18, Culture=neutral, PublicKeyToken=0ed4c5f2bbf81ac0" />
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="SideBar, Version=1.0.2813.28543, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="changeface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeface.Designer.cs">
+      <DependentUpon>changeface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Config.Designer.cs">
+      <DependentUpon>Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Device.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Device.Designer.cs">
+      <DependentUpon>Device.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaultCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaultCheck.Designer.cs">
+      <DependentUpon>FaultCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotkey.cs" />
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModiftyPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModiftyPassword.Designer.cs">
+      <DependentUpon>ModiftyPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModiftyPersonInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModiftyPersonInfor.Designer.cs">
+      <DependentUpon>ModiftyPersonInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="changeface.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>changeface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Config.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Device.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Device.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaultCheck.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FaultCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModiftyPassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ModiftyPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModiftyPersonInfor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ModiftyPersonInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tips.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Tips.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReLogin.Designer.cs">
+      <DependentUpon>ReLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SafeManager.cs" />
+    <Compile Include="Tips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tips.Designer.cs">
+      <DependentUpon>Tips.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="344.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="354353.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="皮肤\Carlmness\Calmness.ssk" />
+    <None Include="皮肤\Carlmness\CalmnessColor1.ssk" />
+    <None Include="皮肤\Carlmness\CalmnessColor2.ssk" />
+    <None Include="皮肤\Carlmness\Thumbs.db" />
+    <None Include="皮肤\Deep\DeepCyan.ssk" />
+    <None Include="皮肤\Deep\DeepGreen.ssk" />
+    <None Include="皮肤\Deep\DeepOrange.ssk" />
+    <None Include="皮肤\Deep\Thumbs.db" />
+    <None Include="皮肤\Diamond\DiamondBlue.ssk" />
+    <None Include="皮肤\Diamond\DiamondGreen.ssk" />
+    <None Include="皮肤\Diamond\Thumbs.db" />
+    <None Include="皮肤\Eighteen\Eighteen.ssk" />
+    <None Include="皮肤\Eighteen\EighteenColor1.ssk" />
+    <None Include="皮肤\Eighteen\EighteenColor2.ssk" />
+    <None Include="皮肤\Eighteen\Thumbs.db" />
+    <None Include="皮肤\Emerald\Emerald.ssk" />
+    <None Include="皮肤\Emerald\EmeraldColor1.ssk" />
+    <None Include="皮肤\Emerald\EmeraldColor2.ssk" />
+    <None Include="皮肤\Emerald\EmeraldColor3.ssk" />
+    <None Include="皮肤\Emerald\Thumbs.db" />
+    <None Include="皮肤\Glass\GlassBrown.ssk" />
+    <None Include="皮肤\Glass\GlassGreen.ssk" />
+    <None Include="皮肤\Glass\GlassOrange.ssk" />
+    <None Include="皮肤\IrisMenu.chm" />
+    <None Include="皮肤\IrisSkin.chm" />
+    <None Include="皮肤\Longhorn\Longhorn.ssk" />
+    <None Include="皮肤\MacOS\MacOS.ssk" />
+    <None Include="皮肤\MacOS\Thumbs.db" />
+    <None Include="皮肤\Midsummer\Midsummer.ssk" />
+    <None Include="皮肤\Midsummer\MidsummerColor1.ssk" />
+    <None Include="皮肤\Midsummer\MidsummerColor2.ssk" />
+    <None Include="皮肤\Midsummer\MidsummerColor3.ssk" />
+    <None Include="皮肤\MP10\MP10.ssk" />
+    <None Include="皮肤\MSN\MSN.ssk" />
+    <None Include="皮肤\One\OneBlue.ssk" />
+    <None Include="皮肤\One\OneCyan.ssk" />
+    <None Include="皮肤\One\OneGreen.ssk" />
+    <None Include="皮肤\One\OneOrange.ssk" />
+    <None Include="皮肤\Page\Page.ssk" />
+    <None Include="皮肤\Page\PageColor1.ssk" />
+    <None Include="皮肤\Page\PageColor2.ssk" />
+    <None Include="皮肤\Page\Thumbs.db" />
+    <None Include="皮肤\RealOne\RealOne.ssk" />
+    <None Include="皮肤\Silver\Silver.ssk" />
+    <None Include="皮肤\Silver\SilverColor1.ssk" />
+    <None Include="皮肤\Silver\SilverColor2.ssk" />
+    <None Include="皮肤\Sports\SportsBlack.ssk" />
+    <None Include="皮肤\Sports\SportsBlue.ssk" />
+    <None Include="皮肤\Sports\SportsCyan.ssk" />
+    <None Include="皮肤\Sports\SportsGreen.ssk" />
+    <None Include="皮肤\Sports\SportsOrange.ssk" />
+    <None Include="皮肤\Steel\SteelBlack.ssk" />
+    <None Include="皮肤\Steel\SteelBlue.ssk" />
+    <None Include="皮肤\Vista1\vista1.ssk" />
+    <None Include="皮肤\Vista1\vista1_green.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color1.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color2.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color3.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color4.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color5.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color6.ssk" />
+    <None Include="皮肤\Vista2\Vista2_color7.ssk" />
+    <None Include="皮肤\Warm\Warm.ssk" />
+    <None Include="皮肤\Warm\WarmColor1.ssk" />
+    <None Include="皮肤\Warm\WarmColor2.ssk" />
+    <None Include="皮肤\Warm\WarmColor3.ssk" />
+    <None Include="皮肤\Wave\Wave.ssk" />
+    <None Include="皮肤\Wave\WaveColor1.ssk" />
+    <None Include="皮肤\Wave\WaveColor2.ssk" />
+    <None Include="皮肤\WinXP\Thumbs.db" />
+    <None Include="皮肤\WinXP\XPBlue.ssk" />
+    <None Include="皮肤\WinXP\XPGreen.ssk" />
+    <None Include="皮肤\WinXP\XPOrange.ssk" />
+    <None Include="皮肤\WinXP\XPSilver.ssk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appli.ico" />
+    <Content Include="皮肤\Carlmness\calmness.gif" />
+    <Content Include="皮肤\Carlmness\calmness_color1.gif" />
+    <Content Include="皮肤\Carlmness\calmness_color2.gif" />
+    <Content Include="皮肤\Deep\deepcyan.gif" />
+    <Content Include="皮肤\Deep\deepgreen.gif" />
+    <Content Include="皮肤\Deep\deeporange.gif" />
+    <Content Include="皮肤\Diamond\diamondblue.gif" />
+    <Content Include="皮肤\Diamond\diamondgreen.gif" />
+    <Content Include="皮肤\Eighteen\eighteen.gif" />
+    <Content Include="皮肤\Eighteen\eighteen_color1.gif" />
+    <Content Include="皮肤\Eighteen\eighteen_color2.gif" />
+    <Content Include="皮肤\Emerald\emerald.gif" />
+    <Content Include="皮肤\Emerald\emerald_color1.gif" />
+    <Content Include="皮肤\Emerald\emerald_color2.gif" />
+    <Content Include="皮肤\Emerald\emerald_color3.gif" />
+    <Content Include="皮肤\Glass\glassbrown.gif" />
+    <Content Include="皮肤\Glass\glassgreen.gif" />
+    <Content Include="皮肤\Glass\glassorange.gif" />
+    <Content Include="皮肤\IrisMenu.dll" />
+    <Content Include="皮肤\IrisSkin2.dll" />
+    <Content Include="皮肤\Longhorn\longhorn.gif" />
+    <Content Include="皮肤\MacOS\macos.gif" />
+    <Content Include="皮肤\Midsummer\midsummer.gif" />
+    <Content Include="皮肤\Midsummer\midsummer_color1.gif" />
+    <Content Include="皮肤\Midsummer\midsummer_color2.gif" />
+    <Content Include="皮肤\Midsummer\midsummer_color3.gif" />
+    <Content Include="皮肤\MP10\mp10.gif" />
+    <Content Include="皮肤\MSN\msn.gif" />
+    <Content Include="皮肤\One\oneblue.gif" />
+    <Content Include="皮肤\One\onecyan.gif" />
+    <Content Include="皮肤\One\onegreen.gif" />
+    <Content Include="皮肤\One\oneorange.gif" />
+    <Content Include="皮肤\Page\page.gif" />
+    <Content Include="皮肤\Page\page_color1.gif" />
+    <Content Include="皮肤\Page\page_color2.gif" />
+    <Content Include="皮肤\RealOne\realone.gif" />
+    <Content Include="皮肤\Silver\silver.gif" />
+    <Content Include="皮肤\Silver\silver_color1.gif" />
+    <Content Include="皮肤\Silver\silver_color2.gif" />
+    <Content Include="皮肤\Sports\sportsblack.gif" />
+    <Content Include="皮肤\Sports\sportsblue.gif" />
+    <Content Include="皮肤\Sports\sportscyan.gif" />
+    <Content Include="皮肤\Sports\sportsgreen.gif" />
+    <Content Include="皮肤\Sports\sportsorange.gif" />
+    <Content Include="皮肤\Steel\steelblack.gif" />
+    <Content Include="皮肤\Steel\steelblue.gif" />
+    <Content Include="皮肤\Vista1\vista1.gif" />
+    <Content Include="皮肤\Vista1\vista1_green.gif" />
+    <Content Include="皮肤\Vista2\vista2_color1.gif" />
+    <Content Include="皮肤\Vista2\vista2_color2.gif" />
+    <Content Include="皮肤\Vista2\vista2_color3.gif" />
+    <Content Include="皮肤\Vista2\vista2_color4.gif" />
+    <Content Include="皮肤\Vista2\vista2_color5.gif" />
+    <Content Include="皮肤\Vista2\vista2_color6.gif" />
+    <Content Include="皮肤\Vista2\vista2_color7.gif" />
+    <Content Include="皮肤\Warm\warm.gif" />
+    <Content Include="皮肤\Warm\warm_color1.gif" />
+    <Content Include="皮肤\Warm\warm_color2.gif" />
+    <Content Include="皮肤\Warm\warm_color3.gif" />
+    <Content Include="皮肤\Wave\wave.gif" />
+    <Content Include="皮肤\Wave\wave_color1.gif" />
+    <Content Include="皮肤\Wave\wave_color2.gif" />
+    <Content Include="皮肤\WinXP\xpblue.gif" />
+    <Content Include="皮肤\WinXP\xpgreen.gif" />
+    <Content Include="皮肤\WinXP\xporange.gif" />
+    <Content Include="皮肤\WinXP\xpsilver.gif" />
+    <Content Include="皮肤\使用.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{BCBCA49B-936B-409F-8CCB-7512DD00B49A}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALProfile\DALProfile.csproj">
+      <Project>{ADD95AF9-B6D1-4853-82FE-DC55C97CD8E4}</Project>
+      <Name>DALProfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{0CC2F078-6C94-47FD-932A-85ECCE72B962}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

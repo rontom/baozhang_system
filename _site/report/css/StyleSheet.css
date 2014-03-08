@@ -1,0 +1,20 @@
+﻿body {margin:0px; padding:0px; font-size:12px;}
+.content{ width:1002px; height:auto; margin-left:auto; margin-right:auto;}
+.header{ width:1002px; height:137px; background-image:url(../images/header.gif)}
+.mid{ width:1002px; height:547px;}
+.left{ width:211px; height:547px; float:left; background-color:#d8d8e2}
+.menu{ width:211px; height:39px; background-image:url(../images/menu.gif)}
+.menu1{ width:211px; cursor:hand; height:36px; background-image:url(../images/menu1.gif); vertical-align:middle; line-height:33px; font-size:15px; color:White; font-weight:600;  text-indent:57px; overflow:hidden; text-align:left;}
+.menuitem{ width:211px; height:85px; background-image:url(../images/menuitem.gif); margin-top:0px; display:none}
+.menubuttom{ width:211px; height:13px; background-image:url(../images/menubuttom.gif)}
+li{ list-style-type:none; color:White; text-indent:20px; overflow:hidden;}
+ul{ line-height:28px;}
+.right{ width:789px; height:550px; float:left; margin-left:0px;}
+.righttop{ width:791px; height:16px; background-image:url(../images/righttop.gif)}
+.rightmid{ width:791px; height:500px; background-image:url(../images/rightmid.gif)}
+.rightbuttom{ width:791px; height:31px; background-image:url(../images/rightbuttom.gif)}
+.buttom{ width:1002px; height:47px; background-image:url(../images/buttom.gif)}
+.info{ width:100%; height:500px; text-align:center; margin-top:10px;}
+a:hover{ font-size:13px; color:Gray;}
+a:link{ font-size:12px; color:White; text-decoration:none}
+a:visited{ font-size:12px; color:White; text-decoration:none}

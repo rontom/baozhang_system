@@ -1,0 +1,17 @@
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\ResolveAssemblyReference.cache
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.changeface.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Config.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Device.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.FaultCheck.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Form1.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Form2.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Form3.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.login.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.MainForm.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.modiftypassword.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.ModiftyPersonInfor.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Properties.Resources.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.ReLogin.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.Tips.resources
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.exe
+H:\program codes\报障系统\报障系统\报障系统\obj\Debug\报障系统.pdb

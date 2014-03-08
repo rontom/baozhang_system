@@ -1,0 +1,11 @@
+G:\reportfault\报障系统\BLL\bin\Debug\BLL.dll
+G:\reportfault\报障系统\BLL\bin\Debug\BLL.pdb
+G:\reportfault\报障系统\BLL\bin\Debug\AspNetPager.dll
+G:\reportfault\报障系统\BLL\bin\Debug\DALProfile.dll
+G:\reportfault\报障系统\BLL\bin\Debug\dotnetCHARTING.dll
+G:\reportfault\报障系统\BLL\bin\Debug\Model.dll
+G:\reportfault\报障系统\BLL\bin\Debug\DALProfile.pdb
+G:\reportfault\报障系统\BLL\bin\Debug\Model.pdb
+G:\reportfault\报障系统\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\reportfault\报障系统\BLL\obj\Debug\BLL.dll
+G:\reportfault\报障系统\BLL\obj\Debug\BLL.pdb

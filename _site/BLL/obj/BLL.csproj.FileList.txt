@@ -1,0 +1,11 @@
+bin\Debug\BLL.dll
+bin\Debug\BLL.pdb
+bin\Debug\AspNetPager.dll
+bin\Debug\DALProfile.dll
+bin\Debug\DALProfile.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BLL.dll
+obj\Debug\BLL.pdb
+bin\Debug\Model.dll
+bin\Debug\Model.pdb
+bin\Debug\dotnetCHARTING.dll

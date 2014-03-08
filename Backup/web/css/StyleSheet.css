@@ -1,0 +1,55 @@
+﻿body{   
+
+          font-size:12px;  
+  } 
+.content{ width:1002px; height:auto; margin-left:auto; margin-right:auto;}
+.header{ width:1002px; height:137px; background-image:url(../images/header.gif)}
+.mid{ width:1002px; height:547px;}
+.left{ width:160px; height:2000px; position:fixed !important; position:absolute; float:left; background-color:#d8d8e2}
+.menu{ width:206px; height:39px; background-image:url(../images/menu.gif)}
+.menu1{ width:160px; cursor:pointer; height:36px; background-image:url(../images/menu1.gif); vertical-align:middle; line-height:33px; font-size:15px; color:White; font-weight:600;  text-indent:38px; overflow:hidden; text-align:left;}
+.menuitem{ width:160px; background-repeat:repeat-y;  background-image:url(../images/menuitem.gif); margin-top:0px; display:none}
+.menubuttom{ width:160px; height:13px; background-image:url(../images/menubuttom.gif)}
+li{ list-style-type:none; display:block; color:White; text-indent:20px; overflow:hidden;}
+ul{ line-height:28px;}
+.right{ width:789px; height:550px; float:left; margin-left:0px;}
+.righttop{ width:791px; height:16px; background-image:url(../images/righttop.gif)}
+.rightmid{ width:791px; height:500px; background-image:url(../images/rightmid.gif)}
+.rightbuttom{ width:791px; height:31px; background-image:url(../images/rightbuttom.gif)}
+.buttom{ width:100%; height:16px; background-repeat:repeat-x; background-image:url(../images/buttom.gif)}
+.info{ width:100%; text-align:center; margin-left:auto; margin-right:auto; margin-top:10px;}
+
+
+.ah{ width:100px; height:20px; margin-top:5px;  margin-left:38px;}
+.left a{ color:White; text-decoration:none;}
+.left a:hover{ color:White; text-decoration:underline;}
+.tabweb{ margin-left:auto; margin-right:auto;}
+.content
+{
+	width:95%; margin-left:auto; margin-right:auto;
+}
+
+.contenttable
+{
+	width:730px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}
+.hea
+{
+	width:85px;
+	padding-right:12px;
+	text-align:right;
+	height:40px;
+}
+
+.guzhangcontent
+{
+	width:80px;
+	padding-right:12px;
+	text-align:right;
+	height:33px;
+	height:40px;
+}
